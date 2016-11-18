@@ -1,0 +1,10 @@
+# Node.js: NPM dependencies
+node_modules
+npm-debug.log
+
+# WebdriverIO: Error screenshots
+errorShots
+
+# BrowserStack
+BrowserStackLocal
+BrowserStackLocal.exe
