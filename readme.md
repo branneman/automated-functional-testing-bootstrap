@@ -13,11 +13,8 @@
   - Docker installed (native for macOS & Windows, not boot2docker!)
   - BrowserStack account with Automate permissions
   - BrowserStackLocal
-- Set browserstack credentials in your environment:
-  ```
-  BROWSERSTACK_USERNAME=johndoe
-  BROWSERSTACK_ACCESS_KEY=abc123
-  ```
+- Set browserstack credentials in your environment:  
+  `BROWSERSTACK_USERNAME=johndoe BROWSERSTACK_ACCESS_KEY=abc123`
 - Clone or download this repository
 - Run `npm install` inside the newly created folder
 - To run the local example you need a localhost webserver:  
