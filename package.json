@@ -5,13 +5,16 @@
   "author": "Bran van der Meer <branmovic@gmail.com> (http://bran.name/)",
   "license": "MIT",
   "scripts": {
-    "test": "npm run test-local ; exit 0",
-    "test-local": "wdio config-local.js ; exit 0",
-    "test-remote": "wdio config-remote.js ; exit 0"
+    "postinstall": "selenium-standalone install",
+    "test": "npm run test-local",
+    "test-local": "wdio config-local.js",
+    "test-docker": "wdio config-docker.js",
+    "test-remote": "wdio config-remote.js"
   },
   "dependencies": {
     "http-server": "^0.9.0",
     "ip": "^1.1.4",
+    "selenium-standalone": "^5.9.0",
     "wdio-browserstack-service": "^0.1.3",
     "wdio-mocha-framework": "^0.5.4",
     "wdio-spec-reporter": "0.0.3",
