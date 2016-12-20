@@ -1,7 +1,8 @@
 # Automated Functional Testing bootstrap
 
 ## Features
-- Has a local endpoint, spawning and connecting to a Selenium Grid
+- Has a local endpoint, spawning and connecting to a Selenium Standalone
+- Has a docker endpoint, spawning and connecting to a Selenium Grid
 - Has a remote endpoint, connecting to BrowserStack Automate
 - Has implemented the Pageobject Pattern
 - Has Mocha configured, with 3 example tests
@@ -28,4 +29,5 @@
 
 ## Run tests
 - Local: `npm run test-local`
+- Docker: `npm run test-docker`
 - Remote: `npm run test-remote`
