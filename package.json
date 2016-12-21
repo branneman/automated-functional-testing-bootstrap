@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "selenium-standalone install",
-    "test": "npm run test-local",
+    "test": "npm run test-local --silent",
     "test-local": "wdio config-local.js",
     "test-docker": "wdio config-docker.js",
     "test-remote": "wdio config-remote.js"
