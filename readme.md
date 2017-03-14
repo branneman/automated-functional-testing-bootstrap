@@ -18,11 +18,11 @@
   `BROWSERSTACK_USERNAME=johndoe BROWSERSTACK_ACCESS_KEY=abc123`
 - Clone or download this repository
 - Run `npm install` inside the newly created folder
-- To run the local example you need a localhost webserver:  
+- To run the local example you need to run a localhost webserver:  
   ```
   node node_modules/.bin/http-server -P http://saucelabs.com/test/
   ```
-- To run the remote example you need BrowserStackLocal for internal urls:  
+- To run the remote example you need to run BrowserStackLocal for internal urls:  
   ```
   ./BrowserStackLocal $BROWSERSTACK_ACCESS_KEY
   ```

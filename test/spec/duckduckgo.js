@@ -3,7 +3,7 @@
 const assert = require('assert');
 const DuckDuckGo = require('../pageobjects/duckduckgo.js');
 
-describe('DuckDuckGo (remote)', function() {
+describe('DuckDuckGo', function() {
 
     it('should have the right homepage title', function() {
 
