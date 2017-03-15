@@ -10,6 +10,7 @@
 
 ## Setup
 - External dependencies:
+  - Java installed (JRE)
   - Node.js installed, at least v4
   - Docker installed (native for macOS & Windows, not boot2docker!)
   - BrowserStack account with Automate permissions
